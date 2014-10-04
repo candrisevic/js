@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Creating an Array the regular way -->
+<h2>Regular Array</h2>
+<script>
+var myBands = new Array();
+myBands[0] = "Paramore";
+myBands[1] = "Icon for Hire";
+myBands[2] = "Lisa Hannigan";
+myBands[3] = "Supergrass";
+
+for (var i=0;i<myBands.length;i++)
+{ 
+document.write(myBands[i] + "<br>");
+}
+</script>
+<br />
+
+<!-- Creating an Array the condensed way -->
+<h2>Condensed Array</h2>
+<script>
+var myBands = new Array("Paramore", "Icon for Hire", "Lisa Hannigan", "Supergrass");
+
+for (var i=0;i<myBands.length;i++)
+{ 
+document.write(myBands[i] + "<br>");
+}
+</script>
+<br />
+
+<!-- Creating an Array the literal way -->
+<h2>Literal Array</h2>
+<script>
+var myBands = ["Paramore", "Icon for Hire", "Lisa Hannigan", "Supergrass"];
+
+for (var i=0;i<myBands.length;i++)
+{ 
+document.write(myBands[i] + "<br>");
+}
+</script>
+
+</body>
+</html>
